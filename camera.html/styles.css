@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+.nav-container {
+    border: 3px solid #ff4040;
+    /* Increased border width from 2px to 3px */
+    padding: 10px;
+    /* Increased padding from 5px to 10px for a bigger box */
+    border-radius: 5px;
+    /* Optional: Rounds the corners */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a.sign-up {
+    background-color: #ff4040;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #2a2a2a;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.white-text {
+    color: #fff;
+    /* "Let's" in white */
+}
+
+.red-text {
+    color: #ff4040;
+    /* "Watch!" in red */
+}
+
+.highlight {
+    color: #ff4040;
+    /* "An Everlasting Entertainment." in red */
+}
+
+.more-details {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4040;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/camera-lens.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+footer a {
+    color: #ff4040;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer p {
+    margin: 10px 0 0;
+    font-size: 12px;
+}
